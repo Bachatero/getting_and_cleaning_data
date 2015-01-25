@@ -10,7 +10,7 @@
 
  The run_analysis.R script loads Samsung experiment test and train data, extracts columns representing mean 
  and standard deviation variables, merges both sets together, calculates mean value of each numerical 
- variable (i.e. average of average) for every activity-subject combination and produces a text file for later analysis 
+ variable (i.e. average of average) for every activity-subject(test person) combination and produces a text file for later analysis 
 
 ### Detailed description
 
@@ -44,8 +44,14 @@
 * extracts columns representing activities,test subjects and columns with mean and standard deviation measurements data
 as described in features_info.txt(Please refer to CodeBook.md for a complete list of extracted columns)
 
-, labels and merges both sets together, calculates mean value for every 
- column with measurements data and produces a text file for later analysis 
+* performs the same steps listed above also for the train data
+
+* rbinds both test_set and train_set data frames into a single final_set df
+
+* executes a group by operation on the final_set and calculates a mean value of every 
+ column with numerical data for each combination of activity and test subject
+
+* finally exports the data frame into a text file for later analysis
 
 ### More information
 
