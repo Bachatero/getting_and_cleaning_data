@@ -23,16 +23,16 @@ run_analysis <- function() {
     
     # set working directory appropriately
     #setwd("~/getting_and_cleaning_data/UCI HAR Dataset")
-    setwd("./UCI HAR Dataset")
+    setwd("~/getting_and_cleaning_data")
     
     # load source files 
-    test_set<-read.table("./test/X_test.txt") #test measurements
-    test_subjects<-read.table("./test/subject_test.txt") #test subjects who carried out the experiment
-    test_activities<-read.table("./test/y_test.txt") # activities performed by test subjects
+    test_set<-read.table("./X_test.txt") #test measurements
+    test_subjects<-read.table("./subject_test.txt") #test subjects who carried out the experiment
+    test_activities<-read.table("./y_test.txt") # activities performed by test subjects
     
-    train_set<-read.table("./train/X_train.txt") #train measurements
-    train_subjects<-read.table("./train/subject_train.txt") #train subjects who carried out the experiment
-    train_activities<-read.table("./train/y_train.txt") # activities performed by train subjects
+    train_set<-read.table("./X_train.txt") #train measurements
+    train_subjects<-read.table("./subject_train.txt") #train subjects who carried out the experiment
+    train_activities<-read.table("./y_train.txt") # activities performed by train subjects
     
     features<-read.table("./features.txt") # column names
     activity_labels<-read.table("./activity_labels.txt") # activity labels
@@ -43,9 +43,9 @@ run_analysis <- function() {
     
     # cbind test activities + test subjects + test_data
     test_set<-cbind(test_subjects,test_set) #1. cbind subject + test
-    merge_activities<-join(test_activities,activity_labels,by="V1") #3. assign activity labels to activities performed  
-    test_set<-cbind(merge_activities,test_set) #4. cbind activities + test
-    colnames(test_set)<-c("Act.Id","Activity","Subject",co_names) #5. assign column names to activity columns
+    merge_activities<-join(test_activities,activity_labels,by="V1") #2. assign activity labels to activities performed  
+    test_set<-cbind(merge_activities,test_set) #3. cbind activities + test
+    colnames(test_set)<-c("Act.Id","Activity","Subject",co_names) #4. assign column names to every column
     test_set<-test_set[,grep("Subject|Activity|mean\\.\\.|std\\.",colnames(test_set),value=T)]
     
     # now do the same for the train data
@@ -63,6 +63,6 @@ run_analysis <- function() {
     final_set<-group_by(final_set,Activity,Subject) %>%  summarise_each(funs(mean))
     
     #write out the data to a text file
-    write.table(final_set,'../final_set.txt',row.names=FALSE)
+    write.table(final_set,'./final_set.txt',row.names=FALSE)
     print("Work complete, please, check output file final_set.txt")
 }
