@@ -16,15 +16,18 @@
 
  The run_analysis.R script contains a function that:
    * loads dplyr and plyr libraries
-   * sets working directory to ../UCI HAR Dataset, please make sure your working directory has the same directory structure 
-as getdata_projectfiles_UCI HAR Dataset.zip file or make adjustments accordingly
+   * sets working directory to ./UCI HAR Dataset, ( !!! Please make sure your working directory has the same directory structure 
+as getdata_projectfiles_UCI HAR Dataset.zip file or make adjustments accordingly !!!)
    
    * reads in Samsung experiment test and train data, extracts columns representing mean 
+   ** test measurements in ./test/X_test.txt  
 
  and standard deviation data, labels and merges both sets together, calculates mean value for every 
  column with measurements data and produces a text file for later analysis 
 
 ### More information
+
+ Use CodeBook.md file for variables description
 
  For more information about the source files used and the Activity Recognition experiment itself please refer to: 
  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
