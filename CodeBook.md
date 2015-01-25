@@ -16,7 +16,7 @@ Activity
 Subject  
    * 30 persons - volunteers numbered from 1 to 30  
 
-Following variables in the final_set.txt represent average values of measurements for each combination of Activity and Subject. 
+The variables in the final_set.txt represent average values of measurements for each combination of Activity and Subject. 
 
 They include 33 variables containing mean values and 33 variables containg standard deviation values for which the average 
 was calculated for every unique combination of activity and volunteer. This makes up a total of 6 * 30 combinations, i.e. 180 rows in the final_set.txt. File features_info.txt clarifies these variables further.
