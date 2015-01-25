@@ -1,15 +1,23 @@
 ### DATA DICTIONARY - Samsung human activity recognition experiment
 
 
-####Following metrics/variables recorded during experiment were selected for processing:
+##### Following metrics/variables recorded during experiment were selected for processing:
 
 Activity  
    * activity during which a metric was recorded  
+     **WALKING
+WALKING_UPSTAIRS
+WALKING_DOWNSTAIRS
+SITTING
+STANDING
+LAYING
+
 
 Subject  
    * 30 persons - volunteers numbered from 1 to 30  
 
- 
+Following variables in the final_set.txt represent mean values of mean and standard deviation measurements  
+for each combination of Activity and Subject 
 
 tBodyAcc.mean...X  
 tBodyAcc.mean...Y   
