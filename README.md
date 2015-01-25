@@ -19,13 +19,18 @@
    * sets working directory to ./UCI HAR Dataset, ( !!! Please make sure your working directory has the same directory structure 
 as getdata_projectfiles_UCI HAR Dataset.zip file or make adjustments accordingly !!!)
    
-* reads in Samsung experiment test and train files:
+* reads in contents of Samsung experiment test and train files:
     * test measurements in ./test/X_test.txt  
     * test subjects who carried out the experiment in ./test/subject_test.txt
     * activities performed by test subjects in ./test/y_test.txt
     * train measurements in ./train/X_train.txt
     * train subjects who carried out the experiment in ./train/subject_train.txt
     * activities performed by train subjects in ./train/y_train.txt 
+
+* reads in variable/column names and activity label files:
+
+    * column names in ./features.txt
+    * activity labels in ./activity_labels.txt
 
 * extracts columns representing mean 
 
