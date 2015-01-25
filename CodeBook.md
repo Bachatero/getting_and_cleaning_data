@@ -23,6 +23,8 @@ was calculated for every unique combination of activity and volunteer. This make
 
 For details on the source data, please, unzip:  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and refer to README.txt in the zip file.
 
+Names of the variables were altered for easier manipulation by replacing parantheses "()" with dots.
+
 
 tBodyAcc.mean...X   
 tBodyAcc.mean...Y   
