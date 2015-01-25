@@ -16,11 +16,10 @@
 
  The run_analysis.R script contains a function that:
    * loads dplyr and plyr libraries
-   * sets working directory to ./UCI HAR Dataset, ( !!! Please make sure your working directory has the same directory structure 
-as getdata_projectfiles_UCI HAR Dataset.zip file or make adjustments accordingly !!!)
+   * sets working directory to ./getting_and_cleaning_data, ( !!! Please clone make sure your working directory has thegsame directory structure as getdata_projectfiles_UCI HAR Dataset.zip file or make adjustments accordingly !!!)
    
 * reads in contents of Samsung experiment test and train files:
-    * test measurements in ./test/X_test.txt  
+    * test measurements in ./X_test.txt  
     * test subjects who carried out the experiment in ./test/subject_test.txt
     * activities performed by test subjects in ./test/y_test.txt
     * train measurements in ./train/X_train.txt
@@ -31,6 +30,12 @@ as getdata_projectfiles_UCI HAR Dataset.zip file or make adjustments accordingly
 
     * column names in ./features.txt
     * activity labels in ./activity_labels.txt
+
+* creates a column names vector from features.txt file
+
+* merges test subjects with test measurements into one data frame using cbind 
+
+* merges test activities with activity labels using plyr join method to preserve order of the rows in the testr_activities data frame 
 
 * extracts columns representing mean 
 
