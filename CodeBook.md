@@ -1,5 +1,5 @@
 ### DATA DICTIONARY - Samsung human activity recognition experiment
-"Activity"
+"Activity"  
 "Subject" 
 "tBodyAcc.mean...X" 
 "tBodyAcc.mean...Y" 
