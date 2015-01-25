@@ -1,9 +1,9 @@
 ### DATA DICTIONARY - Samsung human activity recognition experiment
 
 
-##### Following metrics/variables recorded during experiment were selected for processing:
+##### Following metrics/variables recorded during the experiment were selected for processing:
 
-Activity  
+* Activity  
    * Six activities during which a metric was recorded  
      * WALKING  
      * WALKING_UPSTAIRS  
@@ -13,18 +13,22 @@ Activity
      * LAYING  
 
 
-Subject  
+* Subject  
    * 30 persons - volunteers numbered from 1 to 30  
 
-The variables in the final_set.txt represent average values of measurements for each combination of Activity and Subject. 
+The variables in the final_set.txt represent average values of measurements of acceleration and velocity for each combination of Activity and Subject. 
 
 They include 33 variables containing mean values and 33 variables containg standard deviation values for which the average 
-was calculated for every unique combination of activity and volunteer. This makes up a total of 6 * 30 combinations, i.e. 180 rows in the final_set.txt. File features_info.txt clarifies these variables further.
+was calculated for every unique combination of Activity and Subject. This makes up a total of 6 * 30 combinations, i.e. 180 rows in the final_set.txt. File features_info.txt clarifies these variables further.
 
-For details on the source data, please, unzip:  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and refer to README.txt in the zip file.
+For details on the source data, please, extract README.txt from  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip file.
 
-Names of the variables were altered for easier manipulation by replacing parantheses "()" with dots.
+Names of the variables were altered for easier manipulation by replacing parantheses "()" with dots ".."
 
+For more information about the experiment itself, please, refer to:
+ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+Mean value variables:
 
 tBodyAcc.mean...X   
 tBodyAcc.mean...Y   
