@@ -1,7 +1,7 @@
 ### Introduction
 
-###### Getting and cleaning data @ Coursera.org
-###### credits: 
+##### Getting and cleaning data @ Coursera.org
+###### Credits: 
 ###### 		Roger D. Peng, PhD, Jeff Leek, PhD, Brian Caffo, PhD
 ######          Johns Hopkins Bloomberg School of Public Health
 ######          TA & Peers from the Discussion Forum 
@@ -9,14 +9,16 @@
  23.1.2015 M.Varga
 
  The run_analysis.R script loads Samsung experiment test and train data, extracts columns representing mean 
- and standard deviation data and merges both sets together, calculates mean value for every 
- column with measurements data and produces a text file for later analysis 
+ and standard deviation variables, merges both sets together, calculates mean value of each numerical 
+ variable (i.e. average of average) for every activity-subject combination and produces a text file for later analysis 
 
 ### Detailed description
 
  The run_analysis.R script contains a function that:
    * loads dplyr and plyr libraries
-   * reads in  Samsung test and train data, extracts columns representing mean 
+   * sets working directory to ~/getting_and_cleaning_data/UCI HAR Dataset
+   ** directory structure
+   * reads in Samsung experiment test and train data, extracts columns representing mean 
 
  and standard deviation data, labels and merges both sets together, calculates mean value for every 
  column with measurements data and produces a text file for later analysis 
