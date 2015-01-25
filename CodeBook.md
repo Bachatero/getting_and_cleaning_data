@@ -18,32 +18,29 @@
 
 The variables in the final_set.txt represent average values of measurements of acceleration and velocity for each combination of Activity and Subject. 
 
-They include 33 variables containing mean values and 33 variables containg standard deviation values for which the average 
-was calculated for every unique combination of Activity and Subject. This makes up a total of 6 * 30 combinations, i.e. 180 rows in the final_set.txt. File features_info.txt clarifies these variables further.
+They include 33 variables containing mean values of real numbers and 33 variables containg standard deviation values of real numbers for which the average was calculated for every unique combination of Activity and Subject. This makes up a total of 6 * 30 combinations, i.e. 180 rows in the final_set.txt. File features_info.txt clarifies these variables further.
 
 For details on the source data, please, extract README.txt from  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip file.
 
 Names of the variables were altered for easier manipulation by replacing parantheses "()" with dots ".."
 
-For more information about the experiment itself, please, refer to:
- http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+For more information about the experiment itself, please, refer to:  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones or contact the authors at activityrecognition@smartlab.ws 
 
-Mean value variables:
 
-tBodyAcc.mean...X   
-tBodyAcc.mean...Y   
-tBodyAcc.mean...Z   
-tBodyAcc.std...X   
-tBodyAcc.std...Y   
-tBodyAcc.std...Z   
-tGravityAcc.mean...X   
-tGravityAcc.mean...Y  
-tGravityAcc.mean...Z  
-tGravityAcc.std...X  
-tGravityAcc.std...Y  
-tGravityAcc.std...Z  
-tBodyAccJerk.mean...X    
-tBodyAccJerk.mean...Y  
+* tBodyAcc.mean...X   
+* tBodyAcc.mean...Y   
+* tBodyAcc.mean...Z   
+* tBodyAcc.std...X   
+* tBodyAcc.std...Y   
+* tBodyAcc.std...Z   
+* tGravityAcc.mean...X   
+* tGravityAcc.mean...Y  
+* tGravityAcc.mean...Z  
+* tGravityAcc.std...X  
+* tGravityAcc.std...Y  
+* tGravityAcc.std...Z  
+* tBodyAccJerk.mean...X    
+* tBodyAccJerk.mean...Y  
 tBodyAccJerk.mean...Z  
 tBodyAccJerk.std...X  
 tBodyAccJerk.std...Y  
