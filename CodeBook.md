@@ -4,6 +4,7 @@
 
 Activity  
    * activity during which a metric was recorded  
+
 Subject  
    * 30 persons - volunteers numbered from 1 to 30  
 
