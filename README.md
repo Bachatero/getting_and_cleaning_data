@@ -16,8 +16,9 @@
 
  The run_analysis.R script contains a function that:
    * loads dplyr and plyr libraries
-   * sets working directory to ~/getting_and_cleaning_data/UCI HAR Dataset
-   ** directory structure
+   * sets working directory to ../UCI HAR Dataset, please make sure your working directory has the same directory structure 
+as getdata_projectfiles_UCI HAR Dataset.zip file or make adjustments accordingly
+   
    * reads in Samsung experiment test and train data, extracts columns representing mean 
 
  and standard deviation data, labels and merges both sets together, calculates mean value for every 
