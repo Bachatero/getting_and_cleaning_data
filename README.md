@@ -20,7 +20,7 @@
 as getdata_projectfiles_UCI HAR Dataset.zip file or make adjustments accordingly !!!)
    
    * reads in Samsung experiment test and train data, extracts columns representing mean 
-   ** test measurements in ./test/X_test.txt  
+   1. test measurements in ./test/X_test.txt  
 
  and standard deviation data, labels and merges both sets together, calculates mean value for every 
  column with measurements data and produces a text file for later analysis 
