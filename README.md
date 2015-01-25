@@ -31,7 +31,7 @@
     * column names in ./features.txt
     * activity labels in ./activity_labels.txt
 
-* creates a column names vector from features.txt file
+* creates a column names vector from features data frame (df) by subsetting its second column
 
 * merges test subjects with test measurements into test_set data frame using cbind 
 
@@ -41,7 +41,8 @@
 
 * assigns column names to every column in the test_set df 
 
-* extracts columns representing actvities and test subjects mean and standard deviation data
+* extracts columns representing activities,test subjects and columns with mean and standard deviation measurements data
+as described in features_info.txt(Please refer to CodeBook.md for a complete list of extracted columns)
 
 , labels and merges both sets together, calculates mean value for every 
  column with measurements data and produces a text file for later analysis 
@@ -52,4 +53,6 @@
 
  For more information about the source files used and the Activity Recognition experiment itself please refer to: 
  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+ All source files can be found here:  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
