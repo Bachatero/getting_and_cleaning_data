@@ -19,9 +19,8 @@
    * sets working directory to ./UCI HAR Dataset, ( !!! Please make sure your working directory has the same directory structure 
 as getdata_projectfiles_UCI HAR Dataset.zip file or make adjustments accordingly !!!)
    
-   * reads in Samsung experiment test and train files
-    jjj
-       test measurements in ./test/X_test.txt  
+* reads in Samsung experiment test and train files
+    * test measurements in ./test/X_test.txt  
 
    * extracts columns representing mean 
 
