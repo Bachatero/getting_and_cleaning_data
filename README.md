@@ -1,6 +1,6 @@
 ### Introduction
-##
-## Getting and cleaning data @ Coursera.org
+####
+####  Getting and cleaning data @ Coursera.org
 ## credits:  Roger D. Peng, PhD, Jeff Leek, PhD, Brian Caffo, PhD
 ##           Johns Hopkins Bloomberg School of Public Health
 ##           TA & Peers from the Discussion Forum 
