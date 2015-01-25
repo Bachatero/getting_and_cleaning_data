@@ -1,6 +1,7 @@
 ### DATA DICTIONARY - Samsung human activity recognition experiment
 
 
+####Following metrics/variables recorded during experiment were selected for processing:
 
 Activity  
    * activity during which a metric was recorded  
@@ -8,7 +9,7 @@ Activity
 Subject  
    * 30 persons - volunteers numbered from 1 to 30  
 
-Metrics recorded during test and selected for processing
+ 
 
 tBodyAcc.mean...X  
 tBodyAcc.mean...Y   
