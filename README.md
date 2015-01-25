@@ -53,6 +53,11 @@ as described in features_info.txt(Please refer to CodeBook.md for a complete lis
 
 * finally exports the data frame into a text file for later analysis
 
+
+### Running the script 
+
+ Call run_analysis() function from the command line within R/R Studio apps
+
 ### More information
 
  Use CodeBook.md file for variables description
