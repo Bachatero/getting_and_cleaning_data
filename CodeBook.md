@@ -15,7 +15,7 @@ tGravityAcc.mean...Z
 tGravityAcc.std...X 
 tGravityAcc.std...Y 
 tGravityAcc.std...Z 
-tBodyAccJerk.mean...X 
+tBodyAccJerk.mean...X  
 tBodyAccJerk.mean...Y 
 tBodyAccJerk.mean...Z 
 tBodyAccJerk.std...X 
