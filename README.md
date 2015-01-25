@@ -10,7 +10,7 @@
 
 
  The run_analysis.R script contains a function that:
- ...  loads Samsung test and train data, extracts columns representing mean 
+  *  loads Samsung test and train data, extracts columns representing mean 
  and standard deviation data, labels and merges both sets together, calculates mean value for every 
  column with measurements data and produces a text file for later analysis 
 
