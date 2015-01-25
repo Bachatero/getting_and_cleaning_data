@@ -20,7 +20,7 @@
 as getdata_projectfiles_UCI HAR Dataset.zip file or make adjustments accordingly !!!)
    
    * reads in Samsung experiment test and train files
-			test measurements in ./test/X_test.txt  
+		*	test measurements in ./test/X_test.txt  
 
    * extracts columns representing mean 
 
