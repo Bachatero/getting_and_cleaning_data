@@ -41,7 +41,7 @@ tBodyAccJerkMag.mean..
 tBodyAccJerkMag.std..  
 tBodyGyroMag.mean..  
 tBodyGyroMag.std..  
-tBodyGyroJerkMag.mean.. 
+tBodyGyroJerkMag.mean..  
 tBodyGyroJerkMag.std..  
 fBodyAcc.mean...X  
 fBodyAcc.mean...Y  
