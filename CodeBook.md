@@ -3,9 +3,9 @@
 
 
 Activity  
-   * activity during which a metric was recorded 
+   * activity during which a metric was recorded  
 Subject  
-   * 30 persons - volunteers numbered from 1 to 30
+   * 30 persons - volunteers numbered from 1 to 30  
 
 Metrics recorded during test and selected for processing
 
