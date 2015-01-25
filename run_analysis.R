@@ -22,7 +22,8 @@ run_analysis <- function() {
     library(plyr) # to use join functionality that preserves the row order of the first dataframe joined
     
     # set working directory appropriately
-    setwd("~/getting_and_cleaning_data/UCI HAR Dataset")
+    #setwd("~/getting_and_cleaning_data/UCI HAR Dataset")
+    setwd("./UCI HAR Dataset")
     
     # load source files 
     test_set<-read.table("./test/X_test.txt") #test measurements
