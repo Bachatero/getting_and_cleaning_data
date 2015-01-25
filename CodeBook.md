@@ -5,7 +5,7 @@
 
 Activity  
    * activity during which a metric was recorded  
-     **WALKING
+     ** WALKING
 WALKING_UPSTAIRS
 WALKING_DOWNSTAIRS
 SITTING
