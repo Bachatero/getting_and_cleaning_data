@@ -4,7 +4,7 @@
 ##### Following metrics/variables recorded during the experiment were selected for processing:
 
 * Activity  
-   * Six activities during which a metric was recorded  
+   * Six activities (text values) during which a metric was recorded  
      * WALKING  
      * WALKING_UPSTAIRS  
      * WALKING_DOWNSTAIRS  
@@ -14,12 +14,12 @@
 
 
 * Subject  
-   * 30 persons - volunteers numbered from 1 to 30  
+   * Integer values of 30 persons - volunteers numbered from 1 to 30  
 
 
 The variables listed at the bottom represent average values of measurements of acceleration and velocity for each combination of Activity and Subject.  All of them are real numbers.
 
-They include 33 variables containing mean values  and 33 variables containg standard deviation values of which **the average was calculated for every unique combination of Activity and Subject**. This makes up a total of 6 * 30 combinations, i.e. 180 rows in the final_set.txt. File features_info.txt clarifies these variables further.
+They include 33 variables containing mean values and 33 variables containg standard deviation values of which **the average was calculated for every unique combination of Activity and Subject**. This makes up a total of 6 * 30 combinations, i.e. 180 rows in the final_set.txt. File features_info.txt clarifies these variables further.
 
 For details on the source data, please, extract README.txt from  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip file.
 
