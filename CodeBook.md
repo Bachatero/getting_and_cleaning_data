@@ -10,7 +10,7 @@ tBodyAcc.std...X
 tBodyAcc.std...Y   
 tBodyAcc.std...Z   
 tGravityAcc.mean...X   
-tGravityAcc.mean...Y 
+tGravityAcc.mean...Y  
 tGravityAcc.mean...Z 
 tGravityAcc.std...X 
 tGravityAcc.std...Y 
@@ -48,11 +48,11 @@ fBodyAcc.mean...Y
 fBodyAcc.mean...Z  
 fBodyAcc.std...X  
 fBodyAcc.std...Y  
-fBodyAcc.std...Z 
+fBodyAcc.std...Z  
 fBodyAccJerk.mean...X  
 fBodyAccJerk.mean...Y  
 fBodyAccJerk.mean...Z  
-fBodyAccJerk.std...X 
+fBodyAccJerk.std...X  
 fBodyAccJerk.std...Y  
 fBodyAccJerk.std...Z  
 fBodyGyro.mean...X  
